@@ -1,5 +1,5 @@
 # GMDS 2023: Terminologieserver (TS) - Challenge
-xxThis repository contains the resources for the GMDS 2023 terminology server challenge. 
+This repository contains the resources for the GMDS 2023 terminology server challenge. 
 
 The aim of the TS-Challenge is to present different terminology servers and their functionalities to the audience under comparable conditions. The participating vendors demonstrate which terminology interactions are possible on their product via the FHIR RESTful API and FHIR terminology module. A standardized set of tasks is provided on the basis of predefined API requests organized within a Postman Collection.
 
