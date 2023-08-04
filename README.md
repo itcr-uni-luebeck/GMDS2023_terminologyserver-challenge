@@ -1,6 +1,13 @@
 # GMDS 2023: Terminologieserver (TS) - Challenge
 This repository contains the resources for the GMDS 2023 terminology server challenge. 
 
+The aim of the TS-Challenge is to present different terminology servers and their functionalities to the audience under comparable conditions. The participating vendors demonstrate which terminology interactions are possible on their product via the FHIR RESTful API and FHIR terminology module. A standardized set of tasks is provided on the basis of predefined API requests organized within a Postman Collection.
+
+## Information about the workshop
+https://mii-termserv.de/en/blogs/2023-07-17-gmds-terminology-server-challenge/
+
+
+## Prerequisites
 The collection consists of several folders for the individual operations. The needed CodeSystems, ValueSets and ConceptMaps can be found in the '02 Resources' folder. For each resource exists a PUT request containing the relevant data in the body. The server endpoint can be configured through the environment (url variable).
 
 Additional required CodeSystems:
@@ -9,7 +16,7 @@ Additional required CodeSystems:
 
 For importing the collection and environment in Postman see: [Importing data into Postman](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/)
 
-# User stories
+## User stories
 Introduction:
 In a Molecular Tumor Board (MTB), an interdisciplinary team of physicians creates therapy recommendations for patients with oncological diseases beyond standard treatment options. In a MTB, the software cBioPortal shall be used to visualize molecular genetics and clinical data and to support decision-making. cBioPortal uses OncoTree, a hierarchically organized structure for the classification of currently 868 tumor types. By considering a tumor’s histology and localization, it can be matched to a node of the OncoTree. In pathology reports, neoplasms are routinely coded using the ICD-O classification. ICD-O differentiates between codes of two axes – topography and morphology – which are combined into a tuple. In addition to the ICD-O and OncoTree coding systems, the terminology SNOMED CT will also be used.
 
