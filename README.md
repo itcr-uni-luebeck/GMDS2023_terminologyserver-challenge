@@ -21,7 +21,7 @@ In a Molecular Tumor Board (MTB), an interdisciplinary team of physicians create
 
 1. I want to load the terminologies used by the project (like ICD-O-3, OncoTree and SNOMED CT).
 2. Several codes from different coding systems [SNOMED CT, ICD-O-3, OncoTree] are available. It should be checked whether the individual codes are allowed in the associated CodeSystems and ValueSets.
-3. The correct [SNOMED CT, ICD-O-3, LOINC] codes should be looked up to obtain additional information, such as the display name.
+3. The correct [SNOMED CT, ICD-O-3] codes should be looked up to obtain additional information, such as the display name.
 4. I want to test the subsumption relationship between two SNOMED CT codes.
 5. I want to translate a ICD-O-3 code to SNOMED CT based on a provided mapping.
 6. I want support from the terminological service for maintaining a transitive closure table.
