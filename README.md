@@ -8,12 +8,12 @@ https://mii-termserv.de/en/blogs/2023-07-17-gmds-terminology-server-challenge/
 
 
 ## Prerequisites
-The collection consists of several folders for the individual operations. The needed CodeSystems, ValueSets and ConceptMaps can be found in the '02 Resources' folder. For each resource exists a PUT request containing the relevant data in the body. The server endpoint can be configured through the environment (url variable).
+The collection consists of several folders for the individual operations. The needed CodeSystems, ValueSets and ConceptMaps can be found in the '02 Resources' folder. For each resource exists a PUT request containing the relevant data in the body. The server endpoint and MIME-types can be configured through the collection variables.
 
 Additional required CodeSystems:
 - SNOMED CT [Version: January 2021](https://download.nlm.nih.gov/umls/kss/IHTSDO20210131/SnomedCT_InternationalRF2_PRODUCTION_20210131T120000Z.zip?_gl=1*otxhn2*_ga*NjQ3NDE2NDMwLjE2OTExNTEwNTc.*_ga_P1FPTH9PL4*MTY5MTE1MTA1Ny4xLjEuMTY5MTE1MTE5Ni4wLjAuMA..*_ga_7147EPK006*MTY5MTE1MTA1Ny4xLjEuMTY5MTE1MTE5Ni4wLjAuMA..) 
 
-For importing the collection and environment in Postman see: [Importing data into Postman](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/)
+For importing the collection in Postman see: [Importing data into Postman](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/)
 
 ## User stories
 Introduction:
