@@ -25,3 +25,15 @@ In a Molecular Tumor Board (MTB), an interdisciplinary team of physicians create
 4. I want to test the subsumption relationship between two SNOMED CT codes.
 5. I want to translate a ICD-O-3 code to SNOMED CT based on a provided mapping.
 6. I want support from the terminological service for maintaining a transitive closure table.
+
+## Changelog
+
+### Update on 2023-09-05
+
+A number of inconsistencies and other oversights were fixed:
+
+- The canonical URL of the ICD-O-3 CodeSystem resource was corrected as to make it consistent with the rest of the collection; also fixed the ID for PUT operation.
+- The ConceptMap for ICD-O-3 tuples to OncoTree contained in the collection was not the correct resource. Updated the contained resource.
+- A number of test scripts were broken for the tests where a non-result was expected. This was due to incorrect escapes for `"` characters, this was fixed where broken and preemptively corrected for those tests where this issue might also occur.
+- The closure example was corrected to take the version of the ICD-O resource correctly into account.
+- A few typos were fixed.
