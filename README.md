@@ -37,3 +37,7 @@ A number of inconsistencies and other oversights were fixed:
 - A number of test scripts were broken for the tests where a non-result was expected. This was due to incorrect escapes for `"` characters, this was fixed where broken and preemptively corrected for those tests where this issue might also occur.
 - The closure example was corrected to take the version of the ICD-O resource correctly into account.
 - A few typos were fixed.
+
+### Update on 2023-09-14
+
+- See https://github.com/itcr-uni-luebeck/GMDS2023_TerminologyServer-Challenge/releases/tag/20230914
