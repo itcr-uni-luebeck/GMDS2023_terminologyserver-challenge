@@ -40,4 +40,12 @@ A number of inconsistencies and other oversights were fixed:
 
 ### Update on 2023-09-14
 
-- See https://github.com/itcr-uni-luebeck/GMDS2023_TerminologyServer-Challenge/releases/tag/20230914
+- Fix typo in ConceptMap (#3)
+- Remove a parameter from $translate (#5)
+- Remove testing the PCE syntax for $lookup (#7)
+
+### Update on 2023-09-16
+
+- further target parameters were removed from the translate requests (#4)
+- a typo in the ConceptMap was fixed, leading to failed tests (#8)
+- overzealous testing for SCT lookup results were removed (#9)
