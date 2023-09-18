@@ -49,3 +49,9 @@ A number of inconsistencies and other oversights were fixed:
 - further target parameters were removed from the translate requests (#4)
 - a typo in the ConceptMap was fixed, leading to failed tests (#8)
 - overzealous testing for SCT lookup results were removed (#9)
+
+### Update on 2023-09-18
+
+- fix implicit SCT ValueSet $expand operations (#11, #12, #13)
+- fix version in $find-matches (#14) 
+- fix additional assumption for SCT properties (re-adressing #9)
