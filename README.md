@@ -55,3 +55,8 @@ A number of inconsistencies and other oversights were fixed:
 - fix implicit SCT ValueSet $expand operations (#11, #12, #13)
 - fix version in $find-matches (#14) 
 - fix additional assumption for SCT properties (re-adressing #9)
+
+### Update on 2023-09-19
+
+- fix content issue in CS ICD-O tuples (#16)
+- removed further assumptions for testing PCE operations (#6)
