@@ -1,0 +1,47 @@
+{
+    "$schema": "https://raw.githubusercontent.com/zenodo/zenodo/refs/heads/master/zenodo/modules/deposit/jsonschemas/deposits/records/legacyrecord.json",
+    "publication_type": "other",
+    "upload_type": "software",
+    "creators": [
+        {
+            "orcid": "0000-0002-9902-6459",
+            "affiliation": "Section for Clinical Research IT, Institute of Medical Biometry and Statistics, University of Lübeck & Universitätsklinikum Schleswig-Holstein, Germany",
+            "name": "Joshua Wiedekopf"
+        },
+        {
+            "orcid": "0000-0001-9775-0657",
+            "affiliation": "Section for Clinical Research IT, Institute of Medical Biometry and Statistics, University of Lübeck & Universitätsklinikum Schleswig-Holstein, Germany",
+            "name": "Tessa Ohlsen"
+        },
+        {
+            "affiliation": "Section for Clinical Research IT, Institute of Medical Biometry and Statistics, University of Lübeck & Universitätsklinikum Schleswig-Holstein, Germany",
+            "name": "Jan Schladetzky"
+        },
+        {
+            "orcid": "0000-0002-2068-7765",
+            "affiliation": "Berlin Institute of Health at Charité - Universitätsmedizin Berlin, Germany",
+            "name": "Julian Saß"
+        },
+        {
+            "orcid": "0000-0002-3274-8422",
+            "affiliation": "Institute of Medical Informatics, University of Lübeck, Germany",
+            "name": "Josef Ingenerf"
+        }
+    ],
+    "title": "Terminology Server Challenge at GMDS 2023",
+    "description": "This repository contains the postman collection for the <bTerminology Server Challenge</b> held at the 68th Annual Conference of the German Association for Medical Informatics, Biometry and Epidemiology (GMDS) in Heilbronn, Germany, in September 2023.<br/>The Terminology Server Challenge was organized by the Working Group Medical Terminologies and Classifications of the GMDS. For more information see https://web.archive.org/web/https://mii-termserv.de/blogs/2023-07-17-gmds-terminology-server-challenge/",
+    "license": "CC-BY-4.0",
+    "access_right": "open",
+    "keywords": [
+        "terminology server",
+        "terminology server challenge",
+        "fhir",
+        "fhir terminology",
+        "fhir terminology server",
+        "GMDS"
+    ],
+    "conference_place": "Heilbronn, Germany",
+    "conference_acronym": "GMDS 2023",
+    "conference_session": "Terminology Server Challenge",
+    "conference_dates": "17-21 September 2023"
+}
